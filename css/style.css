@@ -32,6 +32,7 @@ li a {
     background-color: rgb(63, 194, 203);
     text-decoration: none;
     font-weight: 800;
+    border-radius: 6px;
 }
 
 li {
@@ -112,7 +113,8 @@ h3 {
     height: 85vh;
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
 }
 
 #imagenLab {
@@ -121,6 +123,63 @@ h3 {
     justify-content:space-evenly;
     align-items:stretch;
     padding-top: 80px;
+}
+
+#nuestros_trabajos {
+	position: relative;
+	display: block;
+	padding: 25px;
+	border-radius: 6px;
+	text-align: center;
+    font-size: 20px;
+	font-weight: bold;
+	height: 20px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:rgb(63, 194, 203);
+}
+
+#nuestros_trabajos:after,
+#nuestros_trabajos:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+#nuestros_trabajos:before{
+	left: -48%;
+}
+ 
+#nuestros_trabajos:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:rgb(63, 194, 203)
+}
+ 
+#nuestros_trabajos:hover:after,
+#nuestros_trabajos:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+ 
+#nuestros_trabajos:hover:after{
+	right: 130%;
+}
+ 
+#nuestros_trabajos:hover:before{
+	left: 130%;
 }
 
 /* aca empiezan los estilos del footer */

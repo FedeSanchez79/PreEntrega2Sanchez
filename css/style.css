@@ -152,65 +152,6 @@ footer {
 
 /* aca terminan los estilos del footer */
 
-/* ORTOPEDIA */
-
-#ortopedia {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-    "img1 img2"
-    "img3 img4"
-    ;
-    align-items:center;
-    padding-left: 100px;
-}
-
-#imagen1 {
-    width: 40vw;
-    height: 40vh;
-    grid-area: img1;
-}
-
-#imagen2 {
-    width: 40vw;
-    width: 40vw;
-    grid-area: img2;
-}
-
-#imagen3 {
-    width: 40vw;
-    width: 40vw;
-    grid-area: img3;
-}
-
-#imagen4 {
-    width: 40vw;
-    width: 40vw;
-    grid-area: img4;
-}
-
-/* SOBRE NOSOTROS */
-
-h4 {
-    font-size: 2rem;
-    text-decoration: underline;
-    text-align: center;
-    font-weight: 900;
-    color: rgb(49, 92, 247);
-}
-
-#videos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-area: auto;
-    grid-row-gap: 20px;
-    position: relative;
-    left: 125px;
-    top: 50px;
-}
-
 /* TIPOS DE PROTESIS */
 
 #altoMain {
@@ -321,29 +262,4 @@ td {
     position: relative;
     left: 10px;
     bottom: 5px;
-}
-
-/* DESKTOP FIRST*/
-
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}    
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 600px) {
-
-}
-
-@media (max-width: 480px) {
-
-}
-
-@media (max-width: 320px) {
-
 }

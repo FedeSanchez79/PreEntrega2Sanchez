@@ -164,7 +164,7 @@ h3 {
  
 #nuestros_trabajos:hover{
 	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-	background:rgb(63, 194, 203)
+	background:rgb(63, 194, 203);
 }
  
 #nuestros_trabajos:hover:after,
@@ -184,17 +184,14 @@ h3 {
 
 /* aca empiezan los estilos del footer */
 
-footer {
+.footer {
     grid-area: footer;
     background-image: linear-gradient(to top, rgb(76, 74, 74), rgb(128, 117, 117), rgb(175, 172, 172));
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "foodat redsocial";
-}
-
-.footer {
+    "foodat redsocial cv";
     height: 10vh;
     color: rgb(255, 255, 255);
     font-weight: 900;
@@ -205,8 +202,17 @@ footer {
     grid-area: foodat;
 }
 
-#redsocial {
+.redsocial {
     grid-area: redsocial;
+}
+
+.cv {
+    grid-area: cv;  
+}
+
+.cv:hover {
+    filter: opacity(.5);
+    transition: 2s;
 }
 
 /* aca terminan los estilos del footer */
@@ -214,7 +220,7 @@ footer {
 /* TIPOS DE PROTESIS */
 
 #altoMain {
-    height: 270vh;
+    height: 280vh;
 }
 
 .imagenProtesis img {

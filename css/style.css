@@ -328,3 +328,9 @@ td {
     left: 10px;
     bottom: 5px;
 }
+
+/* CURRICULUM */
+
+#header_cv {
+    height: 200px;
+}

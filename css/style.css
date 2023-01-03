@@ -254,8 +254,10 @@ td {
 /* CONTACTO */
 
 #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
     background-image: url(../assets/images/contactenos2.jpg);
-    background-size: cover;
 }
 
 #contacto__box {
@@ -331,99 +333,44 @@ td {
 
 @media (max-width: 320px) { 
     #header_cv {
-        height: fit-content;
-    }
+        height: fit-content;}
     #main_cv {
-        height: fit-content;
-    }
-    #header_trabajos {
-        height: fit-content;
-    }
-    #main_trabajos {
-
-    }
+        height: fit-content;}     
      }
 @media (max-width: 480px) { 
     #header_cv {
-        height: fit-content;
-    }
+        height: fit-content;}
     #main_cv {
-        height: fit-content;
-    }
-    #header_trabajos {
-        height: fit-content;
-    }
-    #main_trabajos {
-        height: fit-content;
-    }
+        height: fit-content;}     
      }
 @media (max-width: 600px) { 
     #header_cv {
-        height: fit-content;
-    }
+        height: fit-content;}
     #main_cv {
-        height: fit-content;
-    }
-    #header_trabajos {
-        height: fit-content;
-    }
-    #main_trabajos {
-        height: fit-content;
-    }
+        height: fit-content;}       
      }
 @media (max-width: 768px) { 
     #header_cv {
-        height: fit-content;
-    }
+        height: fit-content;}
     #main_cv {
-        height: fit-content;
-    }
-    #header_trabajos {
-        height: fit-content;
-    }
-    #main_trabajos {
-        height: fit-content;
-    }
+        height: fit-content;}
+  
      }
 @media (max-width: 1024px) { 
     #header_cv {
-        height: fit-content;
-    }
+        height: fit-content;}
     #main_cv {
-        height: fit-content;
-    }
-    #header_trabajos {
-        height: fit-content;
-    }
-    #main_trabajos {
-        height: fit-content;
-    }
+        height: fit-content;} 
      }
 @media (max-width: 1200px) {
     #header_cv {
-        height: fit-content;
-    }
+        height: fit-content;}
     #main_cv {
-        height: fit-content;
-    }
-    #header_trabajos {
-        height: fit-content;
-    }
-    #main_trabajos {
-        height: fit-content;
-    }
+        height: fit-content;}
      }
-@media (max-width: 1500px) {
+@media (max-width: 1920px) {
     #header_cv {
-            height: fit-content;
-    }
+        height: fit-content;}
     #main_cv {
-            height: fit-content;
-    }
-    #header_trabajos {
-        height: fit-content;
-    }
-    #main_trabajos {
-        height: fit-content;
-    }
+        height: fit-content;}   
      }     
